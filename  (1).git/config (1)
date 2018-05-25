@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "ya"]
+	url = https://hannahhcash:ok088573@github.com/hannahhcash/ok.git
+	fetch = +refs/heads/*:refs/remotes/ya/*
+[branch "master"]
+	remote = ya
+	merge = refs/heads/master

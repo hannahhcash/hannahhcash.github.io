@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url(montserrat-regular.otf);
+
+}
+
+body{
+
+    margin: 0px ;
+    background-color: #341F36  ;
+    opacity: 1;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat-regular' ;
+    display: inline ;
+}
+a{
+    color: black ;
+    text-decoration-color:inherit
+}
+
+nav {
+
+    display: flex ;
+    width: 100vw ;
+    justify-content: space-around;
+    z-index: 10 ;
+    height: 200px ;
+    font-size: 25px ;
+    background-color: #CCCCCC ;
+    align-items: baseline;
+
+}
+
+
+#nav-flex {
+    display: flex ;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0px ;
+    list-style: none ;
+
+
+}
+
+li {
+    display: inline-block ;
+    list-style: none ;
+    align-self:center;
+    transition: all .2s ease-in-out;
+
+
+
+
+}
+
+#wig {
+
+ transition: all .2s ease-in-out;
+
+}
+
+#wig:hover {
+
+    color: #B49DB5;
+
+}
+
+
+
+li:hover {
+
+    transform: scale(1.1);
+
+}
+p{
+
+    color: white ;
+    font-family: 'montserrat-regular' ;
+
+}
+#logo{
+
+     z-index: 10 ;
+    top: -50px ;
+    left: 45%
+
+
+}
+
+#about-me-title {
+
+    margin-left: -150px ;
+    background-image: url(Asset%2012.png) ;
+    width: 570px ;
+    height: 400px ;
+    background-blend-mode: multiply;
+    background-color: #341F36;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+    display: flex ;
+}
+
+#about-me-top {
+    margin-left: 200px
+
+}
+
+
+#about-me-txt {
+
+    width: 477px ;
+    height: 200px ;
+    margin-top: -150px
+        display: flex ;
+}
+
+
+#pic-of-me {
+
+    position: absolute;
+    right: 5% ;
+    top: 200px ;
+}
+
+#contact-header {
+    background-image: url(Asset%2014.png) ;
+    width: 570px ;
+    height: 300px ;
+    background-blend-mode: multiply;
+    background-color: #341F36;
+    position: fixed ;
+    right: -113px ;
+    top: 700px ;
+
+}
+
+#contact-text {
+ position: fixed ;
+    right: 50px ;
+    top: 700px ;
+
+}
+
+#email-text {
+    position: fixed ;
+    left: 200px ;
+    top: 750px ;
+    font-size: 60px ;
+
+
+}
+
+#everything-one {
+
+   display: flex ;
+    justify-content: center ;
+
+
+}
+#flexy {
+
+    display: flex ;
+    justify-content: space-between;
+    margin-left: 50px ;
+    margin-right: 50px ;
+
+}
+#everything-one1 {
+
+}
+
+
+#videography-shadow {
+ background-image: url(Asset%2021.png) ;
+    background-blend-mode: multiply ;
+    background-color: #341F36;
+    width: 800px ;
+    height: 300px ;
+   position: absolute ;
+margin-top: 40px ;
+    margin-left: 80px ;
+}
+
+#videography-text {
+
+    position: absolute;
+    justify-content: center ;
+    margin-top: 40px ;
+
+
+}
+#videyo {
+    display: flex;
+    justify-content: center ;
+    margin-top: 200px ;
+    z-index: 5 ;
+
+}
+
+/*
+#3d-modeling-shadow {
+
+    background-image: url(Asset%2020.png) ;
+    background-blend-mode: multiply ;
+    background-color: #341F36;
+    width: 800px ;
+    height: 300px ;
+    position: fixed ;
+    left: 15% ;
+    margin-top:1000px ;
+}
+*/
+
+#all-photo-page {
+
+    display: flex ;
+    justify-content: center ;
+
+
+}
+#photography-shadow {
+
+    background-image: url(Asset%2023.png) ;
+    background-blend-mode: multiply ;
+    background-color: #341F36;
+   position: absolute ;
+      width: 800px ;
+    height: 300px ;
+    z-index: -2 ;
+    margin-top: 40px ;
+    margin-left: 65px ;
+}
+
+#photography-text {
+
+    position: absolute ;
+ z-index: -2 ;
+margin-top: 40px ;
+}
+
+.row {
+  display: flex;
+  flex-wrap:wrap ;
+justify-content: center ;
+    vertical-align: middle ;
+  padding: 0 4px;
+    margin-top: 200px;
+}
+
+.column {
+  flex: 40%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+#pic {
+
+    height: 466px;
+    width: 600px;
+    transition: all .2s ease-in-out;
+
+    }
+#pic:hover {
+
+    transform: scale(1.1);
+}
