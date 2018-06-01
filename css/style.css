@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'montserrat-regular';
+    font-family: 'montserratregular';
     src: url('montserrat-regular-webfont.woff2') format('woff2'),
          url('montserrat-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -119,7 +119,7 @@ p{
 
     width: 477px ;
     height: 200px ;
-    margin-top: -150px
+    margin-top: -150px ;
         display: flex ;
 }
 
@@ -129,6 +129,8 @@ p{
     position: absolute;
     right: 5% ;
     top: 200px ;
+    width: 400px ;
+    height: 533px ;
 }
 
 #contact-header {
